@@ -51,6 +51,9 @@ export const Row = styled.ul`
   flex-wrap: wrap;
   margin: 20px 0;
 
+  > p {
+    padding-bottom: 16px; 
+  }
   > li {
     display: flex;
     align-items: center;
